@@ -1,14 +1,35 @@
 body {
     background-color: ivory;
 }
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 h1 {
     text-align: center;
-    color: red;
-    /*font-family: 'PT Serif', serif;*/
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
 }
-img {
-    width: 150px;
+nav {
+    float: left;
+    width: 70%;
+    height: 400px;
+    padding: 20px;
 }
-pre {
-    font-size: 15px;
+article {
+    float: left;
+    padding: 20px;
+    width: 20%;
+    height: 300px;
 }
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+article img {
+     width: 150px;
+     float: contour;
+ }
