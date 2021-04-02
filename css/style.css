@@ -19,7 +19,7 @@ nav {
 }
 article {
     float: left;
-    padding: 20px;
+    padding: 30px;
     width: 20%;
     height: 300px;
 }
@@ -29,7 +29,7 @@ footer {
     text-align: left;
     color: white;
 }
-article img {
+img {
      width: 150px;
      float: contour;
  }
